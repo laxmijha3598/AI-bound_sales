@@ -1,0 +1,34 @@
+[campaign]
+sender_name = "Your Name"
+sender_company = "Your Company"
+offer = "helping engineering leaders evaluate and deploy AI agents for repetitive GTM and ops workflows"
+calendly_link = "https://calendly.com/your-name/intro"
+max_daily_emails = 10
+reply_subject_prefix = "Re:"
+
+[icp]
+titles = ["CTO", "VP Engineering", "Head of Engineering"]
+company_categories = ["SaaS", "AI startup"]
+min_headcount = 20
+max_headcount = 200
+geographies = ["US", "UK", "EU"]
+signals = ["currently hiring senior engineers"]
+
+[email]
+subject_template = "Quick thought after seeing {company}'s engineering hiring"
+positive_reply_terms = [
+  "interested",
+  "sounds good",
+  "let's talk",
+  "lets talk",
+  "send times",
+  "book",
+  "calendar",
+  "calendly",
+  "tell me more"
+]
+
+[linkedin]
+delay_min_seconds = 45
+delay_max_seconds = 120
+
